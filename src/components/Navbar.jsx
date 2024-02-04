@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import Flex from './Flex'
+
 import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -9,6 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
 import { FaApple } from "react-icons/fa";
 import { FaWifi } from "react-icons/fa";
+import LogoSvg from './LogoSvg';
 
 function Navbar() {
   return (
@@ -31,6 +33,9 @@ function Navbar() {
             </div>
           </Flex>
         </Container>
+      </section>
+      <section className='flex justify-center'>
+        <LogoSvg/>
       </section>
 
 
