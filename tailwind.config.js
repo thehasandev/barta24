@@ -12,7 +12,11 @@ export default {
       fontFamily: {
         'roboto': ['Roboto'],
         'pop': ['Poppins'],
-      }
+      },
+      colors: {
+        'primary': '#0C2B57',
+        'secondary': '#ED1C24',
+      },
     },
   },
   plugins: [],
