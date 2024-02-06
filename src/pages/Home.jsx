@@ -3,6 +3,7 @@ import NewCetegoris from '../components/layout/NewCetegoris'
 import NewsHeader from '../components/layout/NewsHeader'
 import NationalPoliticalNews from '../components/layout/NationalPoliticalNews'
 import Sports from '../components/layout/Sports'
+import TeachNews from '../components/layout/TeachNews'
 
 
 
@@ -14,6 +15,7 @@ function Home() {
       <NewsHeader />
       <NationalPoliticalNews />
       <Sports/>
+      <TeachNews/>
       
     </>
   )
