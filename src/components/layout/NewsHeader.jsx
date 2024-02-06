@@ -8,7 +8,7 @@ import gift from "../../assets/13144439866766168438.gif"
 
 function NewsHeader() {
   return (
-    <section>
+    <section className='my-12'>
     <Container>
       <div className='border-r border-l border-b border-[#282828]'>
         <h1 className='bg-primary py-2 px-5 font-roboto font-bold text-2xl text-white'>বাংলা</h1>
