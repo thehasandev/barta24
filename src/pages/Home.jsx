@@ -4,6 +4,7 @@ import NewsHeader from '../components/layout/NewsHeader'
 import NationalPoliticalNews from '../components/layout/NationalPoliticalNews'
 import Sports from '../components/layout/Sports'
 import TeachNews from '../components/layout/TeachNews'
+import BlogNews from '../components/layout/BlogNews'
 
 
 
@@ -15,6 +16,7 @@ function Home() {
       <NewsHeader />
       <NationalPoliticalNews />
       <Sports/>
+      <BlogNews/>
       <TeachNews/>
       
     </>
