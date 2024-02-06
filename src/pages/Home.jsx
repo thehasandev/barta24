@@ -6,6 +6,8 @@ import Flex from '../components/Flex'
 import Image from '../components/Image'
 import national from '../assets/national.jpg'
 import Naitonalnews from '../data/naitonalnews'
+import PolyticNews from '../data/polyticsNews'
+
 
 
 
@@ -61,39 +63,32 @@ function Home() {
 
 
             <div>
-            <h1 className='font-pop font-normal text-2xl text-[#111111]'>National</h1>
+            <h1 className='font-pop font-normal text-2xl text-[#111111]'>Politics</h1>
               <div className='flex flex-wrap w-[410px] gap-y-4 justify-between'>
-
+              {
+                PolyticNews.map((item,index)=>(
+                  index == 0 &&
                 <div className='w-full'>
-                  <Image src={national} className="w-full" />
+                  <Image src={item.url} className="w-full" />
                   <div className='p-5'>
-                    <h1 className='font-roboto font-medium text-xl text-[#111111]'>News of JP’s central office being occupied is not true</h1>
-                    <h2 className='font-roboto font-normal text-base text-[#111111] my-2'>A few people released from the Jatiya Party came to the central office</h2>
-                    <h2 className='font-roboto font-semibold text-base text-secondary'>Politics</h2>
+                    <h1 className='font-roboto font-medium text-xl text-[#111111]'>{item.title}</h1>
+                    <h2 className='font-roboto font-normal text-base text-[#111111] my-2'>{item.subtitle}</h2>
+                    <h2 className='font-roboto font-semibold text-base text-secondary'>{item.header}</h2>
                   </div>
                 </div>
+                ))
+              }
 
+              {
+                PolyticNews.map((item,index)=>(
+                  index > 0 &&
                 <div className='w-[190px]'>
-                  <Image src={national} className="w-full" />
-                  <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>Sale of nomination forms for Awami League's reserved seats begins today</h2>
+                  <Image src={item.url} className="w-full" />
+                  <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>{item.title}</h2>
+                  <h3 className='font-roboto font-semibold text-base text-secondary'>{item.header}</h3>
                 </div>
-
-                <div className='w-[190px]'>
-                  <Image src={national} className="w-full" />
-                  <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>Sale of nomination forms for Awami League's reserved seats begins today</h2>
-                </div>
-                <div className='w-[190px]'>
-                  <Image src={national} className="w-full" />
-                  <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>Sale of nomination forms for Awami League's reserved seats begins today</h2>
-                </div>
-                <div className='w-[190px]'>
-                  <Image src={national} className="w-full" />
-                  <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>Sale of nomination forms for Awami League's reserved seats begins today</h2>
-                </div>
-                <div className='w-[190px]'>
-                  <Image src={national} className="w-full" />
-                  <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>Sale of nomination forms for Awami League's reserved seats begins today</h2>
-                </div>
+                ))
+              }
 
 
               </div>
