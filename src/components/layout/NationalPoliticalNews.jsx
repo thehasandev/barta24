@@ -19,7 +19,7 @@ function NationalPoliticalNews() {
                                 Naitonalnews.map((item, index) => (
                                     index == 0 &&
 
-                                    <div className='w-full'>
+                                    <div key={index} className='w-full'>
                                         <Image src={item.url} className="w-full" />
                                         <div className='p-5'>
                                             <h1 className='font-roboto font-medium text-xl text-[#111111] mb-4'>{item.title}</h1>
@@ -40,7 +40,7 @@ function NationalPoliticalNews() {
                             {
                                 Naitonalnews.map((item, index) => (
                                     index > 0 &&
-                                    <div className='w-[224px]'>
+                                    <div key={index} className='w-[224px]'>
                                         <Image src={item.url} className="w-full" />
                                         <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>{item.title}</h2>
                                     </div>
@@ -57,7 +57,7 @@ function NationalPoliticalNews() {
                             {
                                 PolyticNews.map((item, index) => (
                                     index == 0 &&
-                                    <div className='w-full'>
+                                    <div key={index} className='w-full'>
                                         <Image src={item.url} className="w-full" />
                                         <div className='p-5'>
                                             <h1 className='font-roboto font-medium text-xl text-[#111111]'>{item.title}</h1>
@@ -71,7 +71,7 @@ function NationalPoliticalNews() {
                             {
                                 PolyticNews.map((item, index) => (
                                     index > 0 &&
-                                    <div className='w-[190px]'>
+                                    <div key={index} className='w-[190px]'>
                                         <Image src={item.url} className="w-full" />
                                         <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>{item.title}</h2>
                                         <h3 className='font-roboto font-semibold text-base text-secondary'>{item.header}</h3>
