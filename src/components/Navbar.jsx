@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from './Container'
 import Flex from './Flex'
 
@@ -14,9 +14,29 @@ import { FaSearch } from "react-icons/fa";
 import LogoSvg from './LogoSvg';
 
 function Navbar() {
+  const [scroll,setScroll] = useState(false)
+
+
+  useEffect(()=>{
+    const handler =()=>{
+      if(window.scrollY>0){
+        setScroll(true)
+      }else{
+        setScroll(false)
+      }
+    }
+    document.addEventListener("scroll",handler)
+    return()=>{
+      document.removeEventListener("scroll",handler)
+    }
+  },[])
+
+  
+
   return (
-    <nav>
-      <section className='bg-black/10'>
+    <nav className={`${scroll && "mb-36"}`}>
+     <div className={`${scroll? "hidden":"block"}`}>
+      <section  className='bg-black/10 '>
         <Container>
           <Flex className="justify-between items-center">
             <Flex className="gap-x-4">
@@ -36,13 +56,14 @@ function Navbar() {
         </Container>
       </section>
 
-      <section className='flex justify-center my-2'>
+      <section className='flex justify-center my-2  '>
         <Container>
            <LogoSvg/>
         </Container>
       </section>
+      </div> 
 
-      <section className='bg-primary'>
+      <section className={`bg-primary ${scroll && "top-0 duration-500 py-2 fixed w-full"}`}>
         <Container>
            <Flex className="justify-between items-center text-white">
              <ul className='flex gap-x-4'>

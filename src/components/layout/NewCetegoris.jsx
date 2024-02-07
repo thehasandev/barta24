@@ -18,7 +18,7 @@ function NewCetegoris() {
         setPopulerNews(false)
     }
     return (
-        <section className='my-5'>
+        <section className='mb-5'>
             <Container>
                 <Flex className="justify-between flex-wrap">
                     <div className='w-[78%] bg-gray-400/10 py-4'>
