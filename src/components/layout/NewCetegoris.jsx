@@ -21,22 +21,22 @@ function NewCetegoris() {
         <section className='mb-5'>
             <Container>
                 <Flex className="justify-between flex-wrap">
-                    <div className='w-[78%] bg-gray-400/10 py-4'>
+                    <div className='lg:w-[78%] bg-gray-400/10 py-4'>
                         <Flex className="flex-wrap justify-center gap-4">
                             {
                                 NewsCategotis.map((item, index) => (
                                     index == 0 &&
                                     <div key={index}>
-                                        <div className='bg-primary w-[750px]'>
-                                            <Flex className="justify-between">
-                                                <div className='w-[40%]'>
+                                        <div className='bg-primary lg:w-[750px]'>
+                                            <Flex className="justify-center lg:justify-between flex-wrap">
+                                                <div className='lg:w-[40%]'>
                                                     <div className='p-4'>
                                                         <h1 className='font-roboto font-semibold text-2xl text-secondary'>{item.title}</h1>
                                                         <h2 className='font-roboto my-2 font-semibold text-3xl w-[275px] text-white'>{item.subtitle}</h2>
                                                         <p className='font-pop font-normal text-sm text-white'>{item.discription}</p>
                                                     </div>
                                                 </div>
-                                                <div className='w-[60%]'>
+                                                <div className='lg:w-[60%]'>
                                                     <Image src={item.url} className="w-full" />
                                                 </div>
                                             </Flex>
@@ -60,7 +60,7 @@ function NewCetegoris() {
                             }
                         </Flex>
                     </div>
-                    <div className='w-[20%] bg-gray-400/10  h-[695px] py-4'>
+                    <div className='md:w-[20%] bg-gray-400/10  h-[695px] py-4'>
                         <Flex className="justify-between">
                             <div onClick={hanldeLatest} className='w-[40%] bg-primary text-white font-roboto text-xl text-center py-2 cursor-pointer'>Latest</div>
                             <div onClick={hanldePopuler} className='w-[40%] bg-primary text-white font-roboto text-xl text-center py-2 cursor-pointer'>Populer</div>
