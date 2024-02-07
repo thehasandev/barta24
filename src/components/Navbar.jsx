@@ -9,12 +9,14 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
 import { FaApple } from "react-icons/fa";
-import { FaWifi } from "react-icons/fa";
+import { IoIosCloseCircle } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
+import { MdMenu } from "react-icons/md";
 import LogoSvg from './LogoSvg';
 
 function Navbar() {
   const [scroll,setScroll] = useState(false)
+  const [open,setOpen] =useState(false)
 
 
   useEffect(()=>{
@@ -58,7 +60,7 @@ function Navbar() {
 
       <section className='flex justify-center my-2 '>
         <Container className="hidden md:block">
-           <LogoSvg/>
+           <LogoSvg width="333.146px" height="113px"/>
         </Container>
       </section>
       </div> 
@@ -66,7 +68,7 @@ function Navbar() {
       <section className={`bg-primary hidden md:block ${scroll && "top-0 duration-500 py-2 fixed w-full"}`}>
         <Container>
            <Flex className="justify-between items-center text-white">
-             <ul className='flex gap-x-4'>
+             <ul className='flex gap-x-4 px-4'>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>National</li>
@@ -89,27 +91,40 @@ function Navbar() {
       </section>
     
     {/* Responsive  */}
-      <section className={`bg-primary blcok md:hidden ${scroll && "top-0 duration-500 py-2 fixed w-full"}`}>
+      <section className={`blcok md:hidden ${scroll && "top-0 duration-500 py-2 fixed w-full"}`}>
         <Container>
-           <Flex className="justify-between items-center text-white">
-             {/* <ul className='flex gap-x-4'>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>National</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>International</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
-             </ul> */}
-
+           <Flex className="justify-between items-center px-4">
+            
+             <div>
+              {
+                open ? 
+                <IoIosCloseCircle className=' cursor-pointer' onClick={()=>setOpen(false)} size={25}/>:
+                <MdMenu  className=' cursor-pointer' onClick={()=>setOpen(true)} size={25}/>
+              }
+             </div>
+             <div>
+              <LogoSvg width="100px"/>
+             </div>  
              <div>
               <button className='font-roboto text-sm text-white bg-secondary px-4 py-2.5'><FaSearch size={20}/></button>
              </div>
 
            </Flex>
+           {
+            open && 
+           <ul className='bg-primary text-center mt-2'>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>National</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>International</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
+               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
+             </ul> 
+           }
       
         </Container>
       </section>

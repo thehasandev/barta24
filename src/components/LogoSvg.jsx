@@ -1,10 +1,10 @@
 import React from 'react'
 
-function LogoSvg() {
+function LogoSvg({width,height}) {
   return (
     <div>
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="333.146px" height="113px" viewBox="0 0 333.146 113" enable-background="new 0 0 333.146 113" xml:space="preserve">
+	 width={width} height={height} viewBox="0 0 333.146 113" enable-background="new 0 0 333.146 113" xml:space="preserve">
 <g>
 	<g>
 		<g>
