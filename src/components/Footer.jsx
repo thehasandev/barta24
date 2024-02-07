@@ -81,7 +81,7 @@ function Footer() {
             </div>
           </Flex>
         </Container>
-      <div className="bg-[rgb(36,37,47)] py-4 mt-4 px-2">
+      <div className="bg-[rgb(36,37,47)] py-4 mt-4">
         <Container>
           <Flex className="justify-between items-center">
             <div>

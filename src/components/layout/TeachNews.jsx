@@ -32,7 +32,7 @@ function TeachNews() {
             </div>
 
             <div>
-                <div className='flex justify-center mt-12 w-[500px] gap-5 flex-wrap'>
+                <div className='flex justify-center mt-12 md:w-[500px] gap-5 flex-wrap'>
                     {
                         Teachnews.map((item, index) => (
                             index > 0 &&
