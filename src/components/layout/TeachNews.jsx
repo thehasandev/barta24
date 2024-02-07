@@ -8,7 +8,7 @@ import Teachnews from '../../data/teachNews'
 
 function TeachNews() {
   return (
-    <section>
+    <section className='mb-8'>
     <Container>
         <Flex className="gap-x-10">
             <div>
