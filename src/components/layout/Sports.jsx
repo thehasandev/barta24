@@ -9,7 +9,7 @@ function Sports() {
     return (
         <section>
             <Container className="px-2 md:px-0">
-                <Flex className="md:gap-x-10 flex-wrap justify-center">
+                <Flex className="md:gap-x-10 flex-wrap md:justify-start justify-center">
                     <div>
                         <h1 className='font-pop mb-4 mt-6 md:mt-0 font-normal text-2xl text-[#111111]'>Sports</h1>
                         <div className='md:w-[420px] w-[350px]'>

@@ -17,12 +17,12 @@ import Scanner2 from "../assets/scan2.jpg"
 function Footer() {
   return (
     <>
-      <footer className='py-12 bg-gray-400/20'>
+      <footer className='pt-12 bg-gray-400/20 px-4 md:px-0'>
         <Container>
-          <Flex className="gap-x-[300px]">
-            <Flex className="gap-x-16">
-              <div className='w-[400px]'>
-                <LogoSvg />
+          <Flex className="md:gap-x-[300px] flex-wrap justify-center gap-y-8">
+            <Flex className="gap-x-16 gap-y-8 flex-wrap justify-center">
+              <div className='md:w-[400px]'>
+              <LogoSvg width="250px" height="113px"/>
                 <p className='font-pop font-medium text-base text-[#111111] mb-4 mt-6'>Barta24.com is a digital news outlet</p>
                 <p className='font-pop font-medium text-base text-[#111111] '>Level 12, 115 Kazi Nazrul Islam Avenue, Bangla Motor</p>
                 <p className='font-pop font-medium text-base text-[#111111]'>Dhaka 1000, Bangladesh</p>
@@ -82,8 +82,7 @@ function Footer() {
           </Flex>
         </Container>
       </footer>
-
-      <div className="bg-[rgb(36,37,47)] py-4">
+      <div className="bg-[rgb(36,37,47)] py-4 px-2">
         <Container>
           <Flex className="justify-between items-center">
             <div>
@@ -101,6 +100,7 @@ function Footer() {
 
         </Container>
       </div>
+
     </>
   )
 }

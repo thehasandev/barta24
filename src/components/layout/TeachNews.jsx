@@ -10,10 +10,10 @@ function TeachNews() {
   return (
     <section className='mb-8'>
     <Container>
-        <Flex className="gap-x-10">
+        <Flex className="md:gap-x-10 justify-center md:justify-start flex-wrap">
             <div>
                 <h1 className='font-pop mb-4 font-normal text-2xl text-[#111111]'>Tech</h1>
-                <div className='w-[420px]'>
+                <div className='md:w-[420px] w-[350px]'>
                     {
                         Teachnews.map((item, index) => (
                             index == 0 &&
@@ -32,11 +32,11 @@ function TeachNews() {
             </div>
 
             <div>
-                <div className='flex mt-12 w-[500px] gap-5 flex-wrap'>
+                <div className='flex justify-center mt-12 w-[500px] gap-5 flex-wrap'>
                     {
                         Teachnews.map((item, index) => (
                             index > 0 &&
-                            <div key={index} className='w-[224px]'>
+                            <div key={index} className='md:w-[224px] w-[160px]'>
                                 <Image src={item.url} className="w-full" />
                                 <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>{item.title}</h2>
                             </div>
