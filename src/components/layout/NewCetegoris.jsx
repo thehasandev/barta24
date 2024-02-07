@@ -20,7 +20,7 @@ function NewCetegoris() {
     return (
         <section className='mb-5'>
             <Container>
-                <Flex className="justify-between flex-wrap">
+                <Flex className="justify-between flex-wrap px-2 md:px-0">
                     <div className='lg:w-[78%] bg-gray-400/10 py-4'>
                         <Flex className="flex-wrap justify-center gap-4">
                             {
