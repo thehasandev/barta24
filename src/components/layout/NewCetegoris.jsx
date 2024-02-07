@@ -48,7 +48,7 @@ function NewCetegoris() {
                                 NewsCategotis.map((item, index) => (
                                     index > 0 &&
                                     <div key={index}>
-                                        <div className='w-[250px] bg-white'>
+                                        <div className='w-[160px] lg:w-[250px] bg-white'>
                                             <Image src={item.url} className="w-full" />
                                             <div className='p-2'>
                                                 <h2 className='font-roboto mb-2 font-semibold text-lg text-[#111111]'>{item.title}</h2>
