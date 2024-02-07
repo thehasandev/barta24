@@ -91,7 +91,7 @@ function Navbar() {
       </section>
     
     {/* Responsive  */}
-      <section className={`blcok md:hidden ${scroll && "top-0 duration-500 fixed w-full"}`}>
+      <section className={`blcok md:hidden ${scroll && "top-0 fixed w-full"}`}>
         <Container>
            <Flex className="justify-between items-center px-4 py-2 bg-white">
             
@@ -112,7 +112,7 @@ function Navbar() {
            </Flex>
            {
             open && 
-           <ul className='bg-primary text-center mt-2'>
+           <ul className='bg-primary text-center '>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>National</li>
