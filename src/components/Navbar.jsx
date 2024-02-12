@@ -126,27 +126,28 @@ function Navbar() {
            {
             open && 
            <ul className='bg-primary text-center '>
+           
             <Link to="/">
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
+               <li onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
             </Link>
             <Link to="/covid-19">
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
             </Link>
 
             <Link to="/national">
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>National</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>National</li>
             </Link>
 
             <Link to="/international">
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>International</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>International</li>
             </Link>
-            
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
-               <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
+
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
+               <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
              </ul> 
            }
       
