@@ -3,18 +3,20 @@ import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
 
-import internationalHeader from '../../data/internationalHeader'
 
-function InternationalHeader() {
+
+import plitisHeader from '../../data/politisHeader'
+
+function PolitisHeader() {
   return (
     <section>
         <Container className="px-2 md:px-0">
-        <h1 className='clip-path-mypolygon font-pop  my-4 md:my-8 font-normal text-lg md:text-3xl w-[150px] md:w-[280px] px-4 py-2 text-primary bg-yellow-400'>International</h1>
+        <h1 className='clip-path-mypolygon font-pop  my-4 md:my-8 font-normal text-lg md:text-3xl w-[150px] md:w-[280px] px-4 py-2 text-primary bg-yellow-400'>Politics</h1>
                 <Flex className="md:gap-x-10 flex-wrap md:justify-start justify-center">
                     <div>
                         <div className='md:w-[420px] w-[350px]'>
                             {
-                               internationalHeader.map((item, index) => (
+                             plitisHeader.map((item, index) => (
                                     index == 0 &&
                                     <div key={index} className='w-full'>
                                         <Image src={item.url} className="w-full" />
@@ -33,7 +35,7 @@ function InternationalHeader() {
                     <div>
                         <div className='flex md:w-[500px] gap-4 justify-center md:gap-5 flex-wrap'>
                             {
-                                internationalHeader.map((item, index) => (
+                                plitisHeader.map((item, index) => (
                                     index > 0 &&
                                     <div key={index} className='md:w-[224px] w-[150px]'>
                                         <Image src={item.url} className="w-full" />
@@ -52,4 +54,4 @@ function InternationalHeader() {
   )
 }
 
-export default InternationalHeader
+export default PolitisHeader
