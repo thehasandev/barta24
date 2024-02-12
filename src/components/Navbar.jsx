@@ -13,6 +13,7 @@ import { IoIosCloseCircle } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 import { MdMenu } from "react-icons/md";
 import LogoSvg from './LogoSvg';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [scroll,setScroll] = useState(false)
@@ -69,8 +70,15 @@ function Navbar() {
         <Container>
            <Flex className="justify-between items-center text-white">
              <ul className='flex gap-x-4 px-4'>
+              
+              <Link to="/">
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
+              </Link>
+
+              <Link to="/covid-19">
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
+              </Link>
+
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>National</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>International</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
@@ -113,8 +121,12 @@ function Navbar() {
            {
             open && 
            <ul className='bg-primary text-center '>
+            <Link to="/">
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Barta</li>
+            </Link>
+            <Link to="/covid-19">
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
+            </Link>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>National</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>International</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
