@@ -45,7 +45,7 @@ const businessNews =[
         head : "Business",
     },
     {
-        url : "./images/b15.jpg",
+        url : "./images/b8.jpg",
         title:"Canada extends residence ban for foreigners",
         head : "Business",
     },

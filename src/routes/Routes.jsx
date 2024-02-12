@@ -8,6 +8,7 @@ import National from '../pages/National';
 import International from '../pages/International';
 import Politis from '../pages/Politis';
 import Business from '../pages/Business';
+import Error from '../pages/Error';
 
 const Routes = createBrowserRouter([
     {
@@ -38,8 +39,12 @@ const Routes = createBrowserRouter([
           path: "/business",
           element: <Business />,
         },
-      ],
+      ], 
     },
+    {
+      path : "/*",
+      element:<Error/>
+    }
   ]);
 
 export default Routes
