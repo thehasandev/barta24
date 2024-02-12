@@ -91,7 +91,7 @@ function Navbar() {
       </section>
     
     {/* Responsive  */}
-      <section className={`blcok md:hidden ${scroll && "top-0 fixed w-full"}`}>
+      <section className={`blcok md:hidden ${scroll && "top-0 fixed w-full z-10"}`}>
         <Container>
            <Flex className="justify-between items-center px-4 py-2 bg-white">
             
