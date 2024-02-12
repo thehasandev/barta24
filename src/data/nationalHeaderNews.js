@@ -20,12 +20,12 @@ const nationalHeaderNews =[
         title:"Youth gangs active again, killing lives for trivial reasons",
         head : "National",
     },
-  
+
     {
         url : "./images/na5.jpg",
         title:"Banskhali power plant is the government's affordable electricity charioteer",
         head : "National",
-    },
+    }
   
 ]
 

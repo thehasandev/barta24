@@ -5,6 +5,7 @@ import RoutesLayouts from '../components/RoutesLayouts';
 import Home from '../pages/Home';
 import Covid_19 from '../pages/Covid_19';
 import National from '../pages/National';
+import International from '../pages/International';
 
 const Routes = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const Routes = createBrowserRouter([
         {
           path: "/national",
           element: <National />,
+        },
+        {
+          path: "/international",
+          element: <International />,
         },
       ],
     },
