@@ -90,7 +90,10 @@ function Navbar() {
               <Link to="/politis">
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
               </Link>
+
+              <Link to="/business">
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
+              </Link>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
@@ -149,7 +152,9 @@ function Navbar() {
                <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
             </Link>
 
+            <Link to="/business">
                <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
+            </Link>
                <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
                <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
                <li  onClick={()=>setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>

@@ -7,6 +7,7 @@ import Covid_19 from '../pages/Covid_19';
 import National from '../pages/National';
 import International from '../pages/International';
 import Politis from '../pages/Politis';
+import Business from '../pages/Business';
 
 const Routes = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const Routes = createBrowserRouter([
         {
           path: "/politis",
           element: <Politis />,
+        },
+        {
+          path: "/business",
+          element: <Business />,
         },
       ],
     },
