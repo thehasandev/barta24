@@ -82,7 +82,10 @@ function Navbar() {
               <Link to="/national">
                 <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>National</li>
               </Link>
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>International</li>
+
+              <Link to="/international">
+                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>International</li>
+              </Link>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
@@ -133,7 +136,11 @@ function Navbar() {
             <Link to="/national">
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>National</li>
             </Link>
+
+            <Link to="/international">
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>International</li>
+            </Link>
+            
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Sports</li>
