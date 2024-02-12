@@ -36,7 +36,7 @@ function Navbar() {
   
 
   return (
-    <nav className={`${scroll && "mb-36"}`}>
+    <nav className={`${scroll && "mb-[150px]"}`}>
      <div className={`${scroll? "hidden":"block"}`}>
       <section  className='bg-black/10 px-4'>
         <Container>
@@ -65,7 +65,7 @@ function Navbar() {
       </section>
       </div> 
 
-      <section className={`bg-primary hidden md:block ${scroll && "top-0 duration-500 py-2 fixed w-full"}`}>
+      <section className={`bg-primary hidden md:block ${scroll && "top-0 duration-500 py-2 fixed w-full z-10"}`}>
         <Container>
            <Flex className="justify-between items-center text-white">
              <ul className='flex gap-x-4 px-4'>
