@@ -78,8 +78,10 @@ function Navbar() {
               <Link to="/covid-19">
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
               </Link>
-
-               <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>National</li>
+              
+              <Link to="/national">
+                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>National</li>
+              </Link>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>International</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
@@ -127,7 +129,10 @@ function Navbar() {
             <Link to="/covid-19">
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>covid-19</li>
             </Link>
+
+            <Link to="/national">
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>National</li>
+            </Link>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>International</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Politics</li>
                <li className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Business</li>
