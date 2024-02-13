@@ -17,9 +17,9 @@ import Scanner2 from "../assets/scan2.jpg"
 function Footer() {
   return (
     <>
-      <footer className='pt-12 bg-gray-400/20 px-4 md:px-0'>
+      <footer className='pt-12 bg-gray-400/20'>
         <Container>
-          <Flex className="md:gap-x-[300px] flex-wrap justify-center gap-y-8">
+          <Flex className="md:gap-x-[300px] flex-wrap justify-center gap-y-8 px-4 md:px-0">
             <Flex className="gap-x-16 gap-y-8 flex-wrap justify-center">
               <div className='md:w-[400px]'>
               <LogoSvg width="250px" height="113px"/>
@@ -83,20 +83,19 @@ function Footer() {
         </Container>
       <div className="bg-[rgb(36,37,47)] py-4 mt-4">
         <Container>
-          <Flex className="justify-between items-center">
+          <Flex className="justify-between items-center px-4 xl:px-0">
             <div>
-              <p className='font-pop font-normal text-sm text-white'>© barta24.com All Rights Reserved 2018-2022 </p>
+              <p className='font-pop font-tin text-xs md:text-sm text-white'>© barta24.com All Rights Reserved 2018-2022 </p>
             </div>
             <div>
-              <ul className='flex gap-x-2 text-white'>
-                <li className='font-pop font-normal text-sm text-white'>Archive</li>
-                <li className='font-pop font-normal text-sm text-white'>PSI</li>
-                <li className='font-pop font-normal text-sm text-white'>RSS</li>
-                <li className='font-pop font-normal text-sm text-white'>Converter</li>
+              <ul className='flex gap-x-1 md:gap-x-2 text-white'>
+                <li className='font-pop font-normal text-xs md:text-sm text-white'>Archive</li>
+                <li className='font-pop font-normal text-xs md:text-sm text-white'>PSI</li>
+                <li className='font-pop font-normal text-xs md:text-sm text-white'>RSS</li>
+                <li className='font-pop font-normal text-xs md:text-sm text-white'>Converter</li>
               </ul>
             </div>
           </Flex>
-
         </Container>
       </div>
       </footer>
