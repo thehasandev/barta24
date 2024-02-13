@@ -12,6 +12,7 @@ import Error from '../pages/Error';
 import SportsBarta from '../pages/SportsBarta';
 import Entertentment from '../pages/Entertentment';
 import Teach from '../pages/Teach';
+import LifeStyle from '../pages/LifeStyle';
 
 const Routes = createBrowserRouter([
     {
@@ -56,7 +57,7 @@ const Routes = createBrowserRouter([
         },
         {
           path: "/lifestyle",
-          element: <Entertentment />,
+          element: <LifeStyle />,
         }
       ], 
     },

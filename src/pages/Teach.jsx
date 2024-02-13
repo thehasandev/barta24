@@ -1,8 +1,11 @@
 import React from 'react'
+import TeachHeader from '../components/layout/TeachHeader'
 
 function Teach() {
   return (
-    <div>Teach</div>
+    <>
+      <TeachHeader/>
+    </>
   )
 }
 
