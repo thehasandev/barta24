@@ -11,6 +11,7 @@ import Business from '../pages/Business';
 import Error from '../pages/Error';
 import SportsBarta from '../pages/SportsBarta';
 import Entertentment from '../pages/Entertentment';
+import Teach from '../pages/Teach';
 
 const Routes = createBrowserRouter([
     {
@@ -47,6 +48,14 @@ const Routes = createBrowserRouter([
         },
         {
           path: "/entertentment",
+          element: <Entertentment />,
+        },
+        {
+          path: "/teach",
+          element: <Teach />,
+        },
+        {
+          path: "/lifestyle",
           element: <Entertentment />,
         }
       ], 

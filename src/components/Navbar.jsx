@@ -103,8 +103,15 @@ function Navbar() {
                 <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
               </Link>
 
-              <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
-              <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
+
+              <Link to="/teach">
+                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
+              </Link>
+
+              <Link to="/lifestyle">
+                <li className='font-roboto font-normal cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
+              </Link>
+
             </ul>
 
             <div>
@@ -170,9 +177,14 @@ function Navbar() {
               <Link to="/entertentment">
                 <li onClick={() => setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Entertainment</li>
               </Link>
-              
-              <li onClick={() => setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
-              <li onClick={() => setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
+
+              <Link to="/teach">
+                <li onClick={() => setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Tech</li>
+              </Link>
+
+              <Link to="/lifestyle">
+                <li onClick={() => setOpen(false)} className='font-roboto font-normal text-white py-2 border-b border-white/20  cursor-pointer text-base hover:text-secondary duration-500'>Lifestyle</li>
+              </Link>
             </ul>
           }
 
