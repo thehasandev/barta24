@@ -9,6 +9,7 @@ import International from '../pages/International';
 import Politis from '../pages/Politis';
 import Business from '../pages/Business';
 import Error from '../pages/Error';
+import SportsBarta from '../pages/SportsBarta';
 
 const Routes = createBrowserRouter([
     {
@@ -38,6 +39,10 @@ const Routes = createBrowserRouter([
         {
           path: "/business",
           element: <Business />,
+        },
+        {
+          path: "/sports",
+          element: <SportsBarta />,
         },
       ], 
     },
