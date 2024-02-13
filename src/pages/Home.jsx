@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import NewCetegoris from '../components/layout/NewCetegoris'
 import NewsHeader from '../components/layout/NewsHeader'
@@ -8,6 +8,9 @@ import TeachNews from '../components/layout/TeachNews'
 import BlogNews from '../components/layout/BlogNews'
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <>
       <NewCetegoris />
