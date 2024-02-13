@@ -17,13 +17,15 @@ function BusinessNewsHead() {
                         <div className='flex md:w-[1000px] gap-4 justify-center md:justify-start md:gap-5 flex-wrap'>
                             {
                                 businessNews.map((item, index) => (
-                                    <Flex key={index} className='md:w-[450px] w-[350px] gap-6'>
-                                        <Image src={item.url} className="w-full" />
-                                        <div>
-                                            <h2 className='font-roboto mt-2 font-normal text-base md:text-xl text-[#111111]'>{item.title}</h2>
-                                            <h2 className='font-roboto font-medium text-base text-red-500'>{item.head}</h2>
-                                        </div>
-                                    </Flex>
+                                    <Flex key={index} className='md:w-[480px] items-center w-[350px] gap-6'>
+                                    <div className='w-[170px]'>
+                                      <Image src={item.url} className="w-full" />
+                                    </div>
+                                    <div className='w-[280px]'>
+                                        <h2 className='font-roboto mt-2 font-normal text-base md:text-xl text-[#111111]'>{item.title}</h2>
+                                        <h2 className='font-roboto font-medium text-base text-red-500'>{item.head}</h2>
+                                    </div>
+                                </Flex>
                                 ))
                             }
                         </div>
