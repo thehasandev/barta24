@@ -37,7 +37,7 @@ function Navbar() {
 
 
   return (
-    <nav className={`${scroll && "mb-[150px]"}`}>
+    <nav className={`${scroll && "mb-[170px]"}`}>
       <div className={`${scroll ? "hidden" : "block"}`}>
         <section className='bg-black/10 px-4'>
           <Container>
