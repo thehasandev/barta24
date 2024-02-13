@@ -2,8 +2,6 @@ import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex'
 import Image from '../Image'
-
-import nationalHeaderNews from '../../data/nationalHeaderNews'
 import teachHeader from '../../data/teachHeader'
 
 function TeachHeader() {
@@ -46,9 +44,7 @@ function TeachHeader() {
                             }
                         </div>
                     </div>
-
                 </Flex>
-          
         </Container>
     </section>
   )
