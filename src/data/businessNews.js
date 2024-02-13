@@ -60,9 +60,7 @@ const businessNews =[
         head : "Business",
     },
 
-
-
-  
+ 
 ]
 
 export default businessNews
