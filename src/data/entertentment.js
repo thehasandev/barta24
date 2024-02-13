@@ -17,7 +17,7 @@ const entertentment =[
     },
     {
         url : "./images/e4.jpg",
-        title:"New York Fashion Week Unveils the Vision of Raisa Rafique with Sarah as the Showstopper  ",
+        title:"New York Fashion Week Unveils the Vision of Raisa Rafique  ",
         head : "Entertainment",
     },
     {
