@@ -10,6 +10,7 @@ import Politis from '../pages/Politis';
 import Business from '../pages/Business';
 import Error from '../pages/Error';
 import SportsBarta from '../pages/SportsBarta';
+import Entertentment from '../pages/Entertentment';
 
 const Routes = createBrowserRouter([
     {
@@ -44,6 +45,10 @@ const Routes = createBrowserRouter([
           path: "/sports",
           element: <SportsBarta />,
         },
+        {
+          path: "/entertentment",
+          element: <Entertentment />,
+        }
       ], 
     },
     {
