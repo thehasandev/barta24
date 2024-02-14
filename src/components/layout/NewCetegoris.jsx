@@ -52,7 +52,7 @@ function NewCetegoris() {
                                             <Image src={item.url} className="w-full" />
                                             <div className='p-2'>
                                                 <h2 className='font-roboto mb-2 font-semibold text-lg text-[#111111]'>{item.title}</h2>
-                                                <p className='font-pop font-normal text-lg text-[#111111]'>{item.subtitle}</p>
+                                                <p className='font-pop font-normal text-sm md:text-lg text-[#111111]'>{item.subtitle}</p>
                                             </div>
                                         </div>
                                     </div>
