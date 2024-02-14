@@ -8,7 +8,7 @@ function TeachHeader() {
   return (
     <section>
         <Container className="px-2 md:px-0">
-        <h1 className='clip-path-mypolygon font-pop  my-4 md:my-8 font-normal text-lg md:text-3xl w-[150px] md:w-[180px] px-4 py-2 text-primary bg-yellow-400'>Tech</h1>
+        <h1 className='clip-path-mypolygon font-pop  my-4 md:my-8 font-medium text-base md:text-[22px] w-[90px] md:w-[120px] px-4 py-2 text-primary bg-yellow-400'>Tech</h1>
                 <Flex className="md:gap-x-10 flex-wrap md:justify-start justify-center">
                     <div>
                        
