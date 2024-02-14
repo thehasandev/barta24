@@ -21,7 +21,7 @@ function TeachNews() {
                                 <Image src={item.url} className="w-full" />
                                 <div className='p-5'>
                                     <h1 className='font-roboto font-medium text-xl text-[#111111] mb-4'>{item.title}</h1>
-                                    <h2 className='font-roboto font-normal text-base text-[#111111]'>{item.subtitle}</h2>
+                                    <h2 className='font-roboto font-normal text-sm md:text-base text-[#111111]'>{item.subtitle}</h2>
                                 </div>
                             </div>
 
