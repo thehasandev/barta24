@@ -21,7 +21,7 @@ function Covid19News() {
                                             <Image src={item.url} className="w-full" />
                                         </div>
                                         <div className='w-[280px]'>
-                                            <h2 className='font-roboto mt-2 font-normal text-base md:text-xl text-[#111111]'>{item.title}</h2>
+                                            <h2 className='font-roboto mt-2 font-normal text-sm md:text-xl text-[#111111]'>{item.title}</h2>
                                             <h2 className='font-roboto font-medium text-base text-red-500'>{item.head}</h2>
                                         </div>
                                     </Flex>
