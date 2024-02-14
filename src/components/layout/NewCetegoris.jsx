@@ -69,57 +69,57 @@ function NewCetegoris() {
                             latestNews &&
                             <div className='mt-8 h-[600px] overflow-y-scroll'>
                                 <div className='px-4 pb-4 border-b border-b-black/50 '>
-                                    <h3 className='font-pop font-normal text-xl '>Death toll rises to 99 in Chile wildfires</h3>
+                                    <h3 className='font-pop font-normal md:text-xl text-base '>Death toll rises to 99 in Chile wildfires</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>International</p>
                                 </div>
                                 <div className='px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>1 killed, 29 injured when a truck overturned on way back from Ijtema</h3>
+                                    <h3 className='font-pop font-normal md:text-xl text-base '>1 killed, 29 injured when a truck overturned on way back from Ijtema</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
                                 <div className='px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>Playing 'Sampan' in the kingdom of flowers</h3>
-                                    <p className='font-roboto font-medium text-base text-secondary'>National</p>
-                                </div>
-
-
-                                <div className='px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>Committed to supporting Bangladesh's economic goals, Biden writes PM Hasina</h3>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>Playing 'Sampan' in the kingdom of flowers</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
 
                                 <div className='px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>1st Ever Development Communication Conclave Illuminates the Future of Communications in Bangladesh</h3>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>Committed to supporting Bangladesh's economic goals, Biden writes PM Hasina</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
 
                                 <div className='px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>DNCC orders officials to avoid plastic bottled water</h3>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>1st Ever Development Communication Conclave Illuminates the Future of Communications in Bangladesh</h3>
+                                    <p className='font-roboto font-medium text-base text-secondary'>National</p>
+                                </div>
+
+
+                                <div className='px-4 pb-4 border-b border-b-black/50 pt-4'>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>DNCC orders officials to avoid plastic bottled water</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
 
                                 <div className='mt-5 px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>Bangladesh beat India to reach SAFF Championship final</h3>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>Bangladesh beat India to reach SAFF Championship final</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
 
                                 <div className='mt-5 px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>Canada extends residence ban for foreigners</h3>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>Canada extends residence ban for foreigners</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
 
                                 <div className='mt-5 px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>A slice of pitha village in a brick- stone city</h3>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>A slice of pitha village in a brick- stone city</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
                                 <div className='mt-5 px-4 pb-4 border-b border-b-black/50 pt-4'>
-                                    <h3 className='font-pop font-normal text-xl '>Playing 'Sampan' in the kingdom of flowers</h3>
+                                    <h3 className='font-pop font-normal text-base md:text-xl '>Playing 'Sampan' in the kingdom of flowers</h3>
                                     <p className='font-roboto font-medium text-base text-secondary'>National</p>
                                 </div>
 
