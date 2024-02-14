@@ -37,7 +37,7 @@ function Sports() {
                                     index > 0 &&
                                     <div key={index} className='md:w-[224px] w-[150px]'>
                                         <Image src={item.url} className="w-full" />
-                                        <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>{item.title}</h2>
+                                        <h2 className='font-roboto mt-2 font-normal text-sm md:text-base text-[#111111]'>{item.title}</h2>
                                     </div>
                                 ))
                             }
