@@ -25,7 +25,7 @@ function Footer() {
               <LogoSvg width="250px" height="113px"/>
                 <p className='font-pop font-medium text-base text-[#111111] mb-4 mt-6'>Barta24.com is a digital news outlet</p>
                 <p className='font-pop font-medium text-base text-[#111111] '>Level 12, 115 Kazi Nazrul Islam Avenue, Bangla Motor</p>
-                <p className='font-pop font-medium text-base text-[#111111]'>Dhaka 1000, Bangladesh</p>
+                <p className='font-pop font-medium  mt-2 text-base text-[#111111]'>Dhaka 1000, Bangladesh</p>
               </div>
 
               <div>
