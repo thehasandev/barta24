@@ -19,8 +19,8 @@ function Covid19Header() {
                                     <div key={index} className='w-full'>
                                         <Image src={item.url} className="w-full" />
                                         <div>
-                                            <h1 className='font-roboto font-medium text-xl text-[#111111] mb-2'>{item.title}</h1>
-                                            <h2 className='font-roboto font-normal text-base text-[#111111]'>{item.subtitle}</h2>
+                                            <h1 className='font-roboto font-medium text-xl text-[#111111] md:mb-2'>{item.title}</h1>
+                                            <h2 className='font-roboto font-normal text-sm md:text-base text-[#111111] my-1 md:my-0'>{item.subtitle}</h2>
                                             <h2 className='font-roboto font-medium text-base text-red-500'>{item.head}</h2>
                                         </div>
                                     </div>
