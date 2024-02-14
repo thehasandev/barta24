@@ -21,7 +21,7 @@ function NationalHeader() {
                                         <Image src={item.url} className="w-full" />
                                         <div>
                                             <h1 className='font-roboto font-medium text-xl text-[#111111] mb-2'>{item.title}</h1>
-                                            <h2 className='font-roboto font-normal text-base text-[#111111]'>{item.subtitle}</h2>
+                                            <h2 className='font-roboto font-normal text-sm md:text-base text-[#111111]'>{item.subtitle}</h2>
                                             <h2 className='font-roboto font-medium text-base text-red-500'>{item.head}</h2>
                                         </div>
                                     </div>
@@ -36,9 +36,9 @@ function NationalHeader() {
                             {
                                 nationalHeaderNews.map((item, index) => (
                                     index > 0 &&
-                                    <div key={index} className='md:w-[224px] w-[150px]'>
+                                    <div key={index} className='md:w-[224px] w-[162px]'>
                                         <Image src={item.url} className="w-full" />
-                                        <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>{item.title}</h2>
+                                        <h2 className='font-roboto mt-2 font-normal text-sm md:text-base text-[#111111]'>{item.title}</h2>
                                         <h2 className='font-roboto font-medium text-base text-red-500'>{item.head}</h2>
                                     </div>
                                 ))
