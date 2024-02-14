@@ -12,7 +12,7 @@ function PolitisHeader() {
     <section>
         <Container className="px-2 md:px-0">
         <h1 className='clip-path-mypolygon font-pop  my-4 md:my-8 font-medium text-base md:text-[22px] w-[120px] md:w-[160px] px-4 py-2 text-primary bg-yellow-400'>Politics</h1>
-                <Flex className="md:gap-x-10 flex-wrap md:justify-start justify-center">
+                <Flex className="md:gap-x-10 gap-y-4 flex-wrap md:justify-start justify-center">
                     <div>
                         <div className='md:w-[420px] w-[350px]'>
                             {
