@@ -63,7 +63,7 @@ function NationalPoliticalNews() {
                                     <div key={index} className='w-full'>
                                         <Image src={item.url} className="w-full" />
                                         <div className='p-5'>
-                                            <h1 className='font-roboto font-medium text-xl text-[#111111]'>{item.title}</h1>
+                                            <h1 className='font-roboto font-medium text-lg md:text-xl text-[#111111]'>{item.title}</h1>
                                             <h2 className='font-roboto font-normal text-base text-[#111111] my-2'>{item.subtitle}</h2>
                                             <h2 className='font-roboto font-semibold text-base text-secondary'>{item.header}</h2>
                                         </div>
@@ -76,7 +76,7 @@ function NationalPoliticalNews() {
                                     index > 0 &&
                                     <div key={index} className='md:w-[190px] w-[160px]'>
                                         <Image src={item.url} className="w-full" />
-                                        <h2 className='font-roboto mt-2 font-normal text-base text-[#111111]'>{item.title}</h2>
+                                        <h2 className='font-roboto mt-2 font-normal text-sm md:text-base text-[#111111]'>{item.title}</h2>
                                         <h3 className='font-roboto font-semibold text-base text-secondary'>{item.header}</h3>
                                     </div>
                                 ))
@@ -88,7 +88,7 @@ function NationalPoliticalNews() {
 
 
 
-                    <div></div>
+                    
                 </Flex>
             </Container>
         </section>
